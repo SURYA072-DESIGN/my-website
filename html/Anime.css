@@ -1,0 +1,62 @@
+
+*{ margin: 0%;
+   background-color: #ff5100;}
+.mainpageheader{
+    background-color: rgb(233, 211, 14);
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.mainpageheadertext{ 
+    padding-top: 21px;
+    color: #0044ff;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: large;
+        
+}
+
+
+.mainpageheadertext:hover{ color: rgb(75, 75, 75);}
+
+
+
+
+  
+  @media (max-width: 68px) {
+    .animelast {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .AttackOnTitan {
+      
+      width: 100%;}  }
+  
+.animelist{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    padding-top: 19px;
+    padding-left: 17px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin:auto;
+    background-color: transparent;}
+.AttackOnTitan{ 
+    color: rgb(0, 0, 0) ;
+    background-color:  rgb(209, 209, 209);
+    font-size: larger;
+    width: 205px;
+    text-decoration: none;
+    }
+
+  .AttackOnTitan:hover{ background-color: rgb(168, 168, 168); }
+
+
